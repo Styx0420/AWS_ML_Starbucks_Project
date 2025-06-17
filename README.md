@@ -8,20 +8,22 @@ This project builds a machine learning pipeline to predict whether a user will r
 
 The project was developed using the following tools and libraries:
 
-- **Python 3.8ing.
-- **PandasLfor loading, merging, and transforular data.
-- **NumPNient numerical computations, arrays, and mathematical operations.
+- **Python** - 3.8+.
+- **Pandas** - for loading, merging, and transforular data.
+- **NumPY** - for numerical computations, arrays, and mathematical operations.
 - **Matplotlib** and **Seaborn** – Utilized for exploratory data visualization, plotting ROC curves, and statistical graphics.
-- **Scikit-learn** – Provides preprocessing tools, classification models (Logistic Regression, Random Forest), evaluation metrics, and hyperparameter tuning utilities like `RandomizedSearchCV`.
+- **Scikit-learn** – Preprocessing tools, classification models (Logistic Regression, Random Forest), evaluation metrics, and hyperparameter tuning utilities like `RandomizedSearchCV`.
 - **XGBoost** – Used to train and tune gradient boosting models for classification.
 - **IPython.display** – For rendering DataFrames and outputs interactively within Jupyter.
-- **Jupyter Notebook (Amazon SageMaker Studio)** – Development and experimentation environment for prototyping, analysis, and visua## Project Structure
+- **Jupyter Notebook (Amazon SageMaker Studio)** – Development and experimentation environment for prototyping, analysis, and visualisation.
+
+## Project Structure
 
 - `data/`  
   Contains three original JSON datasets used in the project:
-  - `portfolio.json` – Contains metadata about the marketing offers.
-  - `profile.json` – Includes demographic and membership information for users.
-  - `transcript.json` – Event log capturing user interactions (e.g., transactions, offer received/viewed/completed).
+  `portfolio.json` – Contains metadata about the marketing offers.
+  `profile.json` – Includes demographic and membership information for users.
+  `transcript.json` – Event log capturing user interactions (e.g., transactions, offer received/viewed/completed).
 
 - `Starbucks_Capstone_notebook.ipynb`  
   Main Jupyter Notebook containing all code for data processing, EDA, feature engineering, modeling, and evaluation.
