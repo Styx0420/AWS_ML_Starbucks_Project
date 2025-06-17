@@ -21,9 +21,9 @@ The project was developed using the following tools and libraries:
 
 - `data/`  
   Contains three original JSON datasets used in the project:
-  `portfolio.json` – Contains metadata about the marketing offers.
-  `profile.json` – Includes demographic and membership information for users.
-  `transcript.json` – Event log capturing user interactions (e.g., transactions, offer received/viewed/completed).
+  - `portfolio.json` – Contains metadata about the marketing offers.
+  - `profile.json` – Includes demographic and membership information for users.
+  - `transcript.json` – Event log capturing user interactions (e.g., transactions, offer received/viewed/completed).
 
 - `Starbucks_Capstone_notebook.ipynb`  
   Main Jupyter Notebook containing all code for data processing, EDA, feature engineering, modeling, and evaluation.
